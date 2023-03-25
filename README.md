@@ -16,8 +16,6 @@ I have attached a screenshot below that shows the final score I obtained from Ka
 
 Titanic - Machine Learning from Disaster
 
-The code can be described in the main sections below:
-
 ### 1. Preprocessing Data
 
 Data Cleanup
