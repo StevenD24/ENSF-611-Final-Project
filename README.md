@@ -1,7 +1,7 @@
 # Final Project
 
-*Course:* ENSF 611: Machine Learning for Software Engineers  
-*Author:* Steven Duong
+**Course:** ENSF 611: Machine Learning for Software Engineers  
+**Author:** Steven Duong
 
 ## Jupyter Notebook & Submission CSV
 The results for the kaggle competition can be found in the following folder: [ENSF 611 - Final Project](https://github.com/StevenD24/ENSF-611-Final-Project/tree/main/ENSF%20611%20-%20Final%20Project)
