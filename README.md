@@ -16,7 +16,8 @@ I have attached a screenshot below that shows the final score I obtained from Ka
 
 Titanic - Machine Learning from Disaster
 
-Preprocessing Data
+### Preprocessing Data
+
 - Removing unnecessary features such as 'PassengerId', 'Name', 'Ticket', and 'Cabin' from both the training and testing datasets.
 - Filling missing values in the 'Age' column with the mean age of the respective dataset.
 - Filling missing values in the 'Embarked' column with the mode of the respective dataset.
@@ -35,7 +36,9 @@ Filling Missing Values
 
 Verifying Data Preprocessing
 - Using the info() method on both training and testing datasets to ensure that all columns have non-null values and that unnecessary columns have been removed.
-  
+
+### Train Test Split and Cross Validation
+
 Create Training and Test Sets
 - Import train_test_split function from scikit-learn.
 - Split the dataset X and target vector y into training and test sets using train_test_split() function with specified parameters.
