@@ -1,1 +1,9 @@
-# ENSF-611-Final-Project
+# ENSF 611 Final Project
+
+Course: ENSF 611: Machine Learning for Software Engineers
+Author: Steven Duong
+
+## Jupyter Notebook
+The results for the kaggle competition can be found in the folder: [ENSF 611 - Final Project]()
+
+<img width="1191" alt="image" src="https://user-images.githubusercontent.com/105379503/227672116-16b1968f-08ee-4a96-a436-c380d6cf6cf1.png">
