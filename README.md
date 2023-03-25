@@ -65,4 +65,22 @@ Grid Search for RandomForestClassifier
 - Plot of Validation Score Heatmap.
 - Re-train the best RandomForestClassifier obtained from the grid search on the training dataset X_train and y_train.
 
+### Data Evaluation
+
+Evaluate using Test Data
+- Use the retrained model and the test dataset X_test and y_test to evaluate the model's performance.
+- Calculate the predicted values using the predict() function.
+  
+Confusion Matrix and Classification Report
+- Plot the confusion matrix using the plot_confusion_matrix() function and the actual and predicted values.
+- Print the classification report using the actual and predicted values.
+  
+Classification Report
+- Print the classification report to get precision, recall, and accuracy metrics.
+  
+Evaluating the Results on Kaggle
+- Read the test.csv file and store it in a DataFrame df_test.
+- Predict the values for X_testset using the retrained model best_rf and store it in the variable y_pred.
+- Create a new DataFrame df_prediction with the PassengerId column from df_test and the predicted Survived values.
+- Export the prediction results as a CSV file to submit to Kaggle.
 
