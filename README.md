@@ -55,18 +55,14 @@ Compare Models using Cross-Validation
 
 Hyperparameter Tuning using Grid Search
 
-- Perform grid search for hyperparameter tuning using GridSearchCV for the RandomForestClassifier with n_estimators=500 and random_state=55.
-Set up a parameter grid with max_depth values ranging from 1 to 10 and max_features values ranging from 0.1 to 0.6.
-- Initialize a RandomForestClassifier with n_estimators=500 and random_state=55.
+- Perform grid search for hyperparameter tuning using GridSearchCV for the RandomForestClassifier.
+- Set up a parameter grid with max_depth values ranging from 1 to 10 and max_features values ranging from 0.1 to 0.6.
 - Create a GridSearchCV object with the classifier, parameter grid, scoring function set to average_precision, and 10-fold cross-validation.
 - Perform the grid search by fitting the GridSearchCV object on X_train and y_train.
   
 Grid Search for RandomForestClassifier
 - Print the grid search results using the print_grid_search_result() function.
-- Observe the validation score of the best model.
-- Plot of Validation Score Heatmap
-- Plot the grid search results using the plot_grid_search_results() function.
-- Re-train Best Model
+- Plot of Validation Score Heatmap.
 - Re-train the best RandomForestClassifier obtained from the grid search on the training dataset X_train and y_train.
 
 
