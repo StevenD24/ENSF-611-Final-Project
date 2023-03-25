@@ -4,7 +4,7 @@
 **Author:** Steven Duong
 
 ## Jupyter Notebook & Submission CSV
-The results for the kaggle competition can be found in the following folder: [ENSF 611 - Final Project](https://github.com/StevenD24/ENSF-611-Final-Project/tree/main/ENSF%20611%20-%20Final%20Project)
+In the following folder, you will find the results of the Kaggle competition, along with the project documents: [ENSF 611 - Final Project](https://github.com/StevenD24/ENSF-611-Final-Project/tree/main/ENSF%20611%20-%20Final%20Project)
 
 ## Results
 
