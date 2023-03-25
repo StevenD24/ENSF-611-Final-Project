@@ -12,6 +12,18 @@ I have attached a screenshot below that shows the final score I obtained from Ka
 
 <img width="1191" alt="image" src="https://user-images.githubusercontent.com/105379503/227672116-16b1968f-08ee-4a96-a436-c380d6cf6cf1.png">
 
+## Interpretation
+
+i. The research question or topic of investigation was successfully addressed by implementing a machine learning model and performing a series of experiments. By using preprocessing techniques, feature engineering, and hyperparameter tuning, the model's performance was optimized, and the results were analyzed to derive insights and conclusions. This approach allowed for a comprehensive exploration of the problem and the potential solutions, leading to a better understanding of the factors influencing the target variable.
+  
+## Reflection
+
+i. The problem was chosen due to its relevance and the opportunity it provides to apply various data science and machine learning techniques. The problem's complexity and real-world implications make it an exciting and challenging project to work on.
+
+ii. There were no deviations from the initial proposal, as all the steps were followed in detail. The project was carried out according to the outlined plan, which allowed for a well-structured and organized approach to addressing the research question. By adhering to the proposal, the project goals and objectives were effectively achieved, leading to meaningful conclusions and insights.
+
+iii. During the project, several challenges and learnings emerged. Data preprocessing and cleaning proved to be time-consuming and demanded a deep understanding of the dataset, while feature engineering and selection required identifying the most relevant features and transforming them to improve the model's performance. Model selection and hyperparameter tuning also presented difficulties, as finding the best algorithm and configuration involved testing various combinations. Despite these challenges, the project offered valuable insights into the importance of data preprocessing, the power of feature engineering, and the significance of selecting the right model and hyperparameters. Overall, the experience contributed to the development of problem-solving skills and critical thinking, enriching the understanding of the domain and fostering professional growth. Gaining a deeper understanding of the problem and the domain through research and experimentation played a significant role in overcoming challenges and achieving project goals.
+  
 ## Code Explanation
 
 Titanic - Machine Learning from Disaster
