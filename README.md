@@ -1,6 +1,6 @@
 # ENSF 611 Final Project
 
-Course: ENSF 611: Machine Learning for Software Engineers
+Course: ENSF 611: Machine Learning for Software Engineers  
 Author: Steven Duong
 
 ## Jupyter Notebook & Submission CSV
