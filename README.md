@@ -1,4 +1,4 @@
-# ENSF 611 Final Project
+# Final Project
 
 Course: ENSF 611: Machine Learning for Software Engineers  
 Author: Steven Duong
