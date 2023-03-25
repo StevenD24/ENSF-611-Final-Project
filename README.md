@@ -21,6 +21,7 @@ Preprocessing Data
 - Filling missing values in the 'Age' column with the mean age of the respective dataset.
 - Filling missing values in the 'Embarked' column with the mode of the respective dataset.
 - Filling the single missing value in the 'Fare' column of the testing dataset with the mean fare of the dataset.
+- In this dataset, the 'Sex' column needs to be encoded. We will use a OneHotEncoder to encode the values of male and female.
   
 Inspecting the Data
 - Displaying the first few rows of the feature matrix (X) and target vector (y) to get an initial sense of the data.
@@ -34,3 +35,14 @@ Filling Missing Values
 
 Verifying Data Preprocessing
 - Using the info() method on both training and testing datasets to ensure that all columns have non-null values and that unnecessary columns have been removed.
+  
+Create Training and Test Sets
+- Import train_test_split function from scikit-learn.
+- Split the dataset X and target vector y into training and test sets using train_test_split() function with specified parameters.
+  
+Compare Models using Cross-Validation
+- Import necessary modules and classifiers.
+- Create a list models containing the classifiers: LogisticRegression, SVC, BernoulliNB, RandomForestClassifier, and GradientBoostingClassifier.
+- Iterate through the list of models and perform the following tasks:
+- Compute the average_precision score using the get_classifier_cv_score() function with 7-fold cross-validation, passing X_train and y_train as arguments.
+- Round the scores in the DataFrame to 3 decimal places and print the DataFrame to show the models' training and validation scores.
