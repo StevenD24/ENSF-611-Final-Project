@@ -16,7 +16,9 @@ I have attached a screenshot below that shows the final score I obtained from Ka
 
 Titanic - Machine Learning from Disaster
 
-### Preprocessing Data
+The code can be described in the main sections below:
+
+### 1. Preprocessing Data
 
 Data Cleanup
 - Removing unnecessary features such as 'PassengerId', 'Name', 'Ticket', and 'Cabin' from both the training and testing datasets.
@@ -38,7 +40,7 @@ Filling Missing Values
 Verifying Data Preprocessing
 - Using the info() method on both training and testing datasets to ensure that all columns have non-null values and that unnecessary columns have been removed.
 
-### Train Test Split and Cross Validation
+### 2. Train Test Split and Cross Validation
 
 Create Training and Test Sets
 - Import train_test_split function from scikit-learn.
@@ -51,7 +53,7 @@ Compare Models using Cross-Validation
 - Compute the average_precision score using the get_classifier_cv_score() function with 7-fold cross-validation, passing X_train and y_train as arguments.
 - Round the scores in the DataFrame to 3 decimal places and print the DataFrame to show the models' training and validation scores.
 
-### Hyperparameter and Re-training the Random Forest Model
+### 3. Hyperparameter and Re-training the Random Forest Model
 
 Hyperparameter Tuning using Grid Search
 
@@ -65,7 +67,7 @@ Grid Search for RandomForestClassifier
 - Plot of Validation Score Heatmap.
 - Re-train the best RandomForestClassifier obtained from the grid search on the training dataset X_train and y_train.
 
-### Data Evaluation
+### 4. Data Evaluation
 
 Evaluate using Test Data
 - Use the retrained model and the test dataset X_test and y_test to evaluate the model's performance.
