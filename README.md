@@ -18,6 +18,7 @@ Titanic - Machine Learning from Disaster
 
 ### Preprocessing Data
 
+Data Cleanup
 - Removing unnecessary features such as 'PassengerId', 'Name', 'Ticket', and 'Cabin' from both the training and testing datasets.
 - Filling missing values in the 'Age' column with the mean age of the respective dataset.
 - Filling missing values in the 'Embarked' column with the mode of the respective dataset.
